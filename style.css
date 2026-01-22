@@ -1,0 +1,60 @@
+body {
+margin: 0;
+font-family: system-ui, Arial, sans-serif;
+background: linear-gradient(135deg, #0f172a, #020617);
+color: #e5e7eb;
+}
+
+
+header {
+padding: 60px 20px;
+text-align: center;
+}
+
+
+h1 { font-size: 2.5rem; margin-bottom: 10px; }
+h2 { text-align: center; margin-top: 30px; }
+
+
+.plan {
+background: #020617cc;
+max-width: 420px;
+margin: 20px auto;
+padding: 24px;
+border-radius: 16px;
+box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+
+.btn {
+display: inline-block;
+margin-top: 12px;
+padding: 12px 22px;
+background: #38bdf8;
+color: #020617;
+text-decoration: none;
+border-radius: 999px;
+font-weight: 600;
+}
+
+
+/* Desktop layout */
+@media (min-width: 768px) {
+.plans-grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+max-width: 1100px;
+margin: 0 auto;
+}
+}
+
+
+---
+
+
+## 6️⃣ IMPORTANT NOTICE (Show on site)
+> 🚧 Hosting is currently in **BETA**
+> Servers are activated after manual approval
+> Setup time: up to 24 hours
+> No refunds
